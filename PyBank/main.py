@@ -1,8 +1,8 @@
 # Please note that before running this code, make sure you are having the correct path for your own device.
 # If you wanted to run the code in visual studio, if you choose to open only the PyBank folder:
 # The path to read the resource folder would change to Resources/budget_data.csv
-# If you choose to open the entire python challenge folder the path would change to: PyBank\Resources\budget_data.csv
 # The path to write your txt file would be: "Analysis","analysis.txt"
+# If you choose to open the entire python challenge folder the path would change to: PyBank\Resources\budget_data.csv
 # If you choose to open the entire python challenge folder the path would change to: "PyBank","Analysis","analysis.txt"
 # The path depends on where you store these files or you want to store your txt file.
 

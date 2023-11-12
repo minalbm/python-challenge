@@ -1,8 +1,8 @@
 # Please note that before running this code, make sure you are having the correct path for your own device.
 # If you wanted to run the code in visual studio, if you choose to open only the PyPoll folder:
 # The path to read your resource folder would change to Resources\election_data.csv
-# If you chose to open the entire python challenge folder the path would change to: PyPoll\Resources\election_data.csv
 # The path to write your txt file would be: "Analysis","analysis.txt"
+# If you chose to open the entire python challenge folder the path would change to: PyPoll\Resources\election_data.csv
 # If you chose to open the entire python challenge folder the path would change to: "PyPoll","Analysis","analysis.txt"
 # The path depends on where you store these files or you want to store your txt file.
 
