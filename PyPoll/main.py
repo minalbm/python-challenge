@@ -3,7 +3,7 @@ import csv
 
 
 # Path to collect data from the resources folder
-election_data_csv = r"C:\Users\minal\OneDrive\Desktop\BootCamp_Files\BootCamp\Module3_Challenge\Starter_Code\PyPoll\Resources\election_data.csv"
+election_data_csv = r"C:\Users\minal\OneDrive\Documents\GitHub\gitlab\python-challenge\PyPoll\Resources\election_data.csv"
 
 
 # Lists to store data:
@@ -78,7 +78,7 @@ print("-------------------------")
 
 
 # This creates the analysis.txt file and will add it under the Analysis folder.
-Analysis = os.path.join("Analysis","analysis.txt")
+Analysis = os.path.join("PyPoll","Analysis","analysis.txt")
 
 # Open the analysis file
 with open(Analysis, "w") as txtfile:
