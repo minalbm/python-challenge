@@ -1,9 +1,14 @@
+# Please note that before running this code, make sure you are having the correct path for your own device.
+# If you wanted to run the code in visual studio, if you choose to open only the PyBank folder, then the path to write your txt file would be: "Analysis","analysis.txt"
+# If you choose to open the entire python challenge folder the path would change to: "PyBank","Analysis","analysis.txt"
+# The path depends on where you store these files or you want to store your txt file.
+
 import os
 import csv
 
 
 # Path to collect data from the resources folder
-budget_data_csv = r"C:\Users\minal\OneDrive\Documents\GitHub\gitlab\python-challenge\PyBank\Resources\budget_data.csv"
+budget_data_csv = r"PyBank\Resources\budget_data.csv"
 
 
 # Lists to store data:
@@ -81,7 +86,7 @@ print(f"Greatest Decrease in Profits: {Grt_Dec_Prof_Date} (${Grt_Dec_Prof})")
 
 
 # This creates the analysis.txt file and will add it under the Analysis folder.
-Analysis = os.path.join("Analysis","analysis.txt")
+Analysis = os.path.join("PyBank","Analysis","analysis.txt")
 
 # Open the analysis file
 with open(Analysis, "w") as txtfile:
