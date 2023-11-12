@@ -78,7 +78,7 @@ print("-------------------------")
 
 
 # This creates the analysis.txt file and will add it under the Analysis folder.
-Analysis = os.path.join("PyPoll","Analysis","analysis.txt")
+Analysis = os.path.join("Analysis","analysis.txt")
 
 # Open the analysis file
 with open(Analysis, "w") as txtfile:
